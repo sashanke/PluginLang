@@ -26,118 +26,127 @@ parse-error-invalid-bid: '&6Die Gebotsanzahl ist ungültig.'
 parse-error-invalid-max-bid: '&6Das Höchstgebot ist ungültig.'
 auction-fail-banned: '&6Du kannst das nicht versteigern'
 auction-fail-start-tax: '&6Du kannst es dir nicht Leisten diese Auktion zu starten.'
-auction-fail-hand-is-empty: '&6Du musst den zu versteigernden gegenstand in der Hand halten.'
-auction-fail-quantity-too-low: '&6You must offer more than that.'
-auction-fail-insufficient-supply: '&6You do not have enough of this item.'
-auction-fail-starting-bid-too-low: '&6The starting bid is too low.'
-auction-fail-starting-bid-too-high: '&6The starting bid is too high.'
-auction-fail-increment-too-low: '&6The bid increment is too small.'
-auction-fail-increment-too-high: '&6The bid increment is too large.'
-auction-fail-time-too-low: '&6The specified time is too short.'
-auction-fail-time-too-high: '&6The specified time is too long.'
-auction-fail-invalid-owner: '&6A non-player tried to start an auction?'
-auction-fail-auction-exists: '&6There is already an auction going on.'
-auction-fail-no-auction-exists: '&6There is no auction at this time.'
-auction-fail-console: '&6Console cannot start auctions.'
-auction-fail-not-owner-cancel: '&6You cannot cancel auctions you did not start.'
-auction-fail-cancel-prevention: '&6You cannot cancel this close to the auction end.'
-auction-fail-not-owner-end: '&6You cannot end auctions you did not start.'
-auction-fail-gold-standard: '&6You cannot auction gold when it is set as currency.'
-auction-fail-no-early-end: '&6You cannot end auctions early.'
-auction-fail-disabled: '&6Enter &9/auction on&6 to use the auction software.'
-auction-fail-gamemode-creative: '&6You cannot auction while in CREATIVE mode.'
-auction-fail-damaged-item: '&6You cannot auction damaged items.'
-auction-fail-no-sealed-auctions: '&6Sealed auctions are disabled.'
-bid-success-no-challenger: '&b%B&9 has bid &6%b&9 on the &a%i&9.'
-bid-success-outbid: '&b%B&9 raised the bid to &6%b&9.'
-bid-success-update-own-bid: '&b%B&9 raised the bid to &6%b&9.'
-bid-success-update-own-maxbid: You raised your own max bid to &6%h&9.
-bid-success-sealed: '&bYour bid has been placed.'
-bid-auto-outbid: '&b%B&9 has raised the bid to &6%b&9.'
-bid-fail-is-auction-owner: '&6You cannot bid on your own auction.'
-bid-fail-already-current-bidder: '&6Your bid remains unchanged.'
-bid-fail-cant-allocate-funds: '&6You cannot afford that bid.'
-bid-fail-no-bidder: '&6A non-player tried to bid on an auction?'
-bid-fail-console: '&6Console bidding is prohibited.'
-bid-fail-no-auction: '&6There is no auction at this time on which to bid.'
-bid-fail-auto-outbid: '&6You have been automatically outbid.'
-bid-fail-gamemode-creative: '&6You cannot bid while in CREATIVE mode.'
-bid-fail-under-starting-bid: '&6The bidding must start at %s.'
-bid-fail-bid-required: '&6You must enter a bid amount.'
-auction-queue-enter: Your auction has been queued (number %Q in line).
-auction-queue-fail-full: '&6The auction queue is full, try again later.'
-auction-queue-fail-in-queue: '&6You already have an auction queued (number %Q in line).'
-auction-queue-fail-current-auction: '&6You are already running an auction.'
-auction-queue-status-in-queue: You are number %Q of %k in the auction queue.
-auction-queue-status-not-in-queue: There are %k auctions queued, none belong to you.
-auction-cancel: The auction has been cancelled.
-auction-cancel-queued: Your auction has been removed from the queue.
-auction-end-nobids: The auction ended with no bids.
-auction-end: '&b%B&9 won the auction for &a%i&9 with &6%b&9!'
-auction-disabled: '&bAuctioning disabled.'
-auction-enabled: '&bAuctioning enabled.'
-auction-start: '&cAttention, an auction is beginning!'
+auction-fail-hand-is-empty: '&6Du musst den zu versteigernden gegenstand in der Hand
+  halten.'
+auction-fail-quantity-too-low: '&6Du musst mehr anbieten.'
+auction-fail-insufficient-supply: '&6Du hast nicht genug davon.'
+auction-fail-starting-bid-too-low: '&6Das Startgebot ist zu niedrig.'
+auction-fail-starting-bid-too-high: '&6Das Startgebot ist zu hoch.'
+auction-fail-increment-too-low: '&6Der Gebotsschritt ist zu klein.'
+auction-fail-increment-too-high: '&6Der Gebotsschritt ist zu groß.'
+auction-fail-time-too-low: '&6Die angegebene Zeit ist zu klein.'
+auction-fail-time-too-high: '&6Die angegebene Zeit ist zu lang.'
+auction-fail-invalid-owner: '&6Ein nicht Spieler versucht eine Auktion zu starten?'
+auction-fail-auction-exists: '&6Es läuft bereits eine Auktion.'
+auction-fail-no-auction-exists: '&6Es gibt zur Zeit keine Auktionen.'
+auction-fail-console: '&6Die Konsole kann keine Auktionen starten.'
+auction-fail-not-owner-cancel: '&6Du kannst keine Auktionen abbrechen die du nicht
+  gestartet hast.'
+auction-fail-cancel-prevention: '&6Du kannst diese Aktion nicht mehr abbrechen.'
+auction-fail-not-owner-end: '&6Du kannst keine Auktionen beenden die du nicht gestartet
+  hast.'
+auction-fail-gold-standard: '&6Du kannst kein Gold versteigern!'
+auction-fail-no-early-end: '&6Du kannst keine Auktionen so früh beenden.'
+auction-fail-disabled: '&6Schreibe &9/auktion on&6 um die Aktionssiftware zu nutzen.'
+auction-fail-gamemode-creative: '&6Du kannst keine Auktionen aus dem Kreativ Modus
+  heraus starten.'
+auction-fail-damaged-item: '&6Du kannst keine beschädigten dinge Versteigern.'
+auction-fail-no-sealed-auctions: '&6Stille Auktionen sind deaktiviert.'
+bid-success-no-challenger: '&b%B&9 hat auf &a%i&9 &6%b&9 geboten.'
+bid-success-outbid: '&b%B&9 hat das gebot auf &6%b&9 erhöht.'
+bid-success-update-own-bid: '&b%B&9 hat das gebot auf &6%b&9 erhöht.'
+bid-success-update-own-maxbid: Du hast dein Maximalgebot auf &6%h&9 erhöht.
+bid-success-sealed: '&bDein gebot wurde platziert.'
+bid-auto-outbid: '&b%B&9 hat das gebot auf &6%b&9 erhöht.'
+bid-fail-is-auction-owner: '&6Du kannst nicht auf deine eigene Auktionen bieten.'
+bid-fail-already-current-bidder: '&6Dein gebot ist unverändert.'
+bid-fail-cant-allocate-funds: '&6Du kannst dir dieses Gebot nicht leisten.'
+bid-fail-no-bidder: '&6Ein nicht Spieler versucht auf eine Auktion zu bieten?'
+bid-fail-console: '&6Die Konsole darf nicht mitbieten.'
+bid-fail-no-auction: '&6Es ist gerade keine Auktion am laufen auf die du bieten könntest'
+bid-fail-auto-outbid: '&6Du wurdest automatisch überboten.'
+bid-fail-gamemode-creative: '&6Du kannst aus dem Kreativ Modus heraus nicht mitbieten.'
+bid-fail-under-starting-bid: '&6Das Gebot muss mindestens %s betragen.'
+bid-fail-bid-required: '&6Du musst deine Gebotshöhe angeben.'
+auction-queue-enter: Deine Auktion ist in der Warteschlange (Position %Q).
+auction-queue-fail-full: '&6Die Auktionswarteschlange ist voll, versuch es später
+  wieder.'
+auction-queue-fail-in-queue: '&6Du hast bereits eine Auktion in der Warteschlange(Position
+  %Q).'
+auction-queue-fail-current-auction: '&6Es läuft bereits eine Auktion von dir.'
+auction-queue-status-in-queue: Deine Auktion ist nummer %Q von %k in der Warteschlange.
+auction-queue-status-not-in-queue: Es sind %k Auktionen in der Warteschlange, keine davon ist deine.
+auction-cancel: Die Auktion wurde abgebrochen.
+auction-cancel-queued: Deine Aktion wurde von der Warteschlange entfernt.
+auction-end-nobids: Die Auktion endete ohne Gebote.
+auction-end: '&b%B&9 hat die Auktion von &a%i&9 mit &6%b&9 gewonnen!'
+auction-disabled: '&bAuktionen deaktiviert.'
+auction-enabled: '&bAuktionen aktiviert.'
+auction-start: '&cAchtung eine Auktion startet jetzt!'
 auction-help:
-- '&b/auction&4|&bauc start&4|&bs &6[QTY] [PRICE] [INC] [TIME]&9 - Starts an auction
-  for &6[TIME]&9 seconds with &6[QTY]&9 of item in hand for &6[PRICE]&9 with an enforced
-  increase of &6[INC]&9 between bids. &a("&4|&a" means "or" meaning you can any option
-  in &4|&a lists)'
-- '&b/auction&4|&bauc end&4|&be&4|&bstop&9 - Ends current auction'
-- '&b/auction&4|&bauc cancel&4|&bc&9 - Cancels current auction'
-- '&b/auction&4|&bauc info&4|&bi&9 - Returns current auction info.'
-- '&b/bid &6[BID] [MAXBID]&9 - Bids on auction. If you set a &6[MAXBID]&9 and the
-  &6[BID]&9 is greater than the current, you will outbit that bid if it''s lower than
-  your maximum. If you omit a &6[BID]&9 the lowest allowable bid will be used.'
-- '&b/sauction&4|&bsauc start&4|&bs &6[QTY] [PRICE] [INC] [TIME]&9 - Starts a sealed
-  auction. '
-- '&b/auction&4|&bauc stfu&4|&bignore&4|&bquiet&4|&boff&4|&bsilent&4|&bsilence&9 -
-  Opt out of auction participation and announcements.'
-auction-start-tax: You have been charged an auction tax of %x.
-auction-end-tax: An auction tax of %X has been extracted from your winnings.
+- '&b/auktion start &6[Anz] [Preis] [Geb] [Zeit]&9 - Startet eine Auktion mit &6[Zeit]&9
+  Laufzeit in Sekunden der Anzahl &6[Anz]&9 für den Preis &6[Preis]&9 und den Gebotschritten
+  von &6[Geb]&9 zwischen zwei Geboten.'
+- '&b/auktion end&9 - Beendet die Auktion'
+- '&b/auktion cancel&9 - Bricht die Auktion ab'
+- '&b/auktion info&9 - Information über die Auktion.'
+- '&b/biete &6[Gebot] [MaxGebot]&9 - Bietet auf eine Auktion. Wenn du ein &6[MaxGebot]&9 setzt
+  und das &6[Gebot]&9 ist größer als das AKtuelle überbietet du automatisch alle neuen Gebote
+  die Geringen sind als dein Maximum. Mit /bieten gibst du automatisch ein Minimal Gebot ab'
+- '&b/sauktion start &6[Anz] [Preis] [Geb] [Zeit]&9 - Startet eine stille Auktion'
+- '&b/auktion stfu&4|&bignore&4|&bquiet&4|&boff&4|&bsilent&4|&bsilence&9 -
+  Auktionsbenachrichtigungen ausschalten.'
+auction-start-tax: Dir wurden %x als Auktionsgebühren berechnet.
+auction-end-tax: Auktionsgebühren in höhe von %X wurden von deiner Auszahlung abgezogen.
 auction-info-suppressed-alt:
-- '&b%O&9 is auctioning &f%q&a %i&9 for &c%t&9.'
-- Type &a/auction info&9 for full details.
-auction-info-header: '&b%O&9 is auctioning &f%q&a %i&9 for &c%t&9.'
-auction-info-header-nobids: '&b%O&9 is auctioning &f%q&a %i&9 for &c%t&9.'
+- '&b%O&9 versteigert &f%q&a %i&9, Laufzeit &c%t&9.'
+- Tippe &a/auktion info&9 für alle Details.
+- Tippe &a/bieten&9 oder /biete &6[Gebot]&9 oder /biete &6[Gebot] [MaxGebot]&9.
+auction-info-header: '&b%O&9 versteigert &f%q&a %i&9, Laufzeit &c%t&9.'
+auction-info-header-nobids: '&b%O&9 versteigert &f%q&a %i&9, Laufzeit &c%t&9.'
 auction-info-header-sealed:
-- '&b%O&9 is auctioning &f%q %i&9&a for &c%t&9.'
-- This is a SEALED auction.
-auction-info-enchantment: 'Enchantments: &a%F'
+- '&b%O&9 versteigert &f%q %i&9&a, Laufzeit &c%t&9.'
+- Dies ist eine stille Auktion.
+auction-info-enchantment: 'Verzauberungen: &a%F'
 auction-info-enchantment-separator: '&9, &a'
-auction-info-enchantment-none: No Enchantments
-auction-info-display-name: 'Actual Item Type: &a%d'
-auction-info-book-title: 'Book is titled: &a%Y'
-auction-info-book-author: 'Book signed by: &a%y'
-auction-info-damage: 'Item damaged: &6%D &aremaining.'
-auction-info-payload: 'Firework payload: &a%A'
+auction-info-enchantment-none: Keine Verzauberungen
+auction-info-display-name: 'Gegenstands Typ: &a%d'
+auction-info-book-title: 'Buchtitel: &a%Y'
+auction-info-book-author: 'Author: &a%y'
+auction-info-damage: 'Gegenstands beschädigung: &6%D &aübrig.'
+auction-info-payload: 'Feuerwerk: &a%A'
 auction-info-payload-separator: '&9, &a'
-auction-info-payload-power: 'Firework Flight Duration: &a%r'
+auction-info-payload-power: 'Feuerwerk Flugdauer: &a%r'
 auction-info-footer:
-- The current bid is &6%b&9 by &b%B&9.
-- Min bid increment is &6&9%n&9.
+- Das aktuelle Gebot für &6%b&9 liegt bei &b%B&9.
+- Minimale Gebotserhöhung &6&9%n&9.
 auction-info-footer-nobids:
-- Bidding starts at &6%s&9.
-- Min bid increment is &6%n&9.
+- Gebote starten ab &6%s&9.
+- Minimale Gebotserhöhung &6%n&9.
 auction-info-footer-sealed:
-- Bidding starts at &6%s&9.
-- Min bid increment is &6%n&9.
+- Gebote starten ab &6%s&9.
+- Minimale Gebotserhöhung &6%n&9.
 auction-info-no-auction:
-- Nothing is being auctioned at this time.
+- Zur Zeit laufen keinerlei Auktionen.
 auction-info-lore-header: --&1LORE&9--------------------
 auction-info-lore-detail: '|  &5&o%L'
 auction-info-lore-footer: '--------------------&1LORE&9--'
-timer-countdown-notification: Auction has &c%t&9 remaining.
-time-format-minsec: '%m min, %s sec'
-time-format-seconly: '%s sec'
+timer-countdown-notification: Die Versteigerung läuft noch &c%t&9.
+time-format-minsec: '%m Minuten, %s Sekunden'
+time-format-seconly: '%s Sekunden'
 gold-standard-name-singular: '%g Nugget'
 gold-standard-name-plural: '%g Nuggets'
-worldchange-fail-auction-owner: '&6You cannot change worlds while auctioning.'
-worldchange-fail-auction-bidder: '&6You cannot change worlds while bidding.'
-gamemodechange-fail-auction-owner: '&6You cannot change gamemode while auctioning.'
-gamemodechange-fail-auction-bidder: '&6You cannot change gamemode while bidding.'
-lot-give: '&dYour items have been added to your inventory.'
-lot-drop: '&dNot enough space, your items dropped at your feet.'
-anti-snipe-time-added: ANTI-SNIPE! More time added to auction!
+worldchange-fail-auction-owner: '&6Du kannst die Welt nicht wechseln wärend du eine
+  Auktion laufen hast.'
+worldchange-fail-auction-bidder: '&6Du kannst die Welt nicht wechseln wärend du ein
+  Gebot abgegeben hast.'
+gamemodechange-fail-auction-owner: '&6Du kannst nich in den Kreativ Modus wechseln
+  wärend du eine Auktion laufen hast.'
+gamemodechange-fail-auction-bidder: '&6Du kannst nich in den Kreativ Modus wechseln
+  wärend du ein Gebot abgegeben hast.'
+lot-give: '&dDeine Gegenstände wurden dir ins Invetar gelegt.'
+lot-drop: '&dNicht genug Platz im Inventar, Gegenstände wurden vor deine Füße gelegt.'
+anti-snipe-time-added: ANTI-SNIPE! Auktionsdauer wurde erhöht!
 firework-shapes:
   BALL: Ball
   BALL_LARGE: Large Ball

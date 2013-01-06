@@ -18,4 +18,4 @@ messages:
   names-reloaded: '&Bnames.yml &7has been reloaded.'
   this-is-now: '&7Item name has been set to: '
   no-vault: '&4Disabled due to no &6[Vault]&4 dependency found!'
-  no-permission: '&CYou lack permission for this.'
+  no-permission: '&CDu hast keine Rechte um diesen Befehl zu benutzen.'

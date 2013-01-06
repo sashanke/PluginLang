@@ -90,18 +90,19 @@ auction-help:
 - '&b/auktion end&9 - Beendet die Auktion'
 - '&b/auktion cancel&9 - Bricht die Auktion ab'
 - '&b/auktion info&9 - Information über die Auktion.'
-- '&b/biete &6[Gebot] [MaxGebot]&9 - Bietet auf eine Auktion. Wenn du ein &6[MaxGebot]&9 setzt
-  und das &6[Gebot]&9 ist größer als das AKtuelle überbietet du automatisch alle neuen Gebote
-  die Geringen sind als dein Maximum. Mit /bieten gibst du automatisch ein Minimal Gebot ab'
+- '&b/biete &6[Gebot] [MaxGebot]&9 - Bietet auf eine Auktion. Wenn du ein &6[MaxGebot]&9
+  setzt und das &6[Gebot]&9 ist größer als das AKtuelle überbietet du automatisch
+  alle neuen Gebote die Geringen sind als dein Maximum. Mit /bieten gibst du automatisch
+  ein Minimal Gebot ab'
 - '&b/sauktion start &6[Anz] [Preis] [Geb] [Zeit]&9 - Startet eine stille Auktion'
-- '&b/auktion stfu&4|&bignore&4|&bquiet&4|&boff&4|&bsilent&4|&bsilence&9 -
-  Auktionsbenachrichtigungen ausschalten.'
+- '&b/auktion stfu&4|&bignore&4|&bquiet&4|&boff&4|&bsilent&4|&bsilence&9 - Auktionsbenachrichtigungen
+  ausschalten.'
 auction-start-tax: Dir wurden %x als Auktionsgebühren berechnet.
 auction-end-tax: Auktionsgebühren in höhe von %X wurden von deiner Auszahlung abgezogen.
 auction-info-suppressed-alt:
 - '&b%O&9 versteigert &f%q&a %i&9, Laufzeit &c%t&9.'
 - Tippe &a/auktion info&9 für alle Details.
-- Tippe &a/bieten&9 oder /biete &6[Gebot]&9 oder /biete &6[Gebot] [MaxGebot]&9.
+- Tippe &a/bieten&9 oder &a/biete &6[Gebot]&9 oder &a/biete &6[Gebot] [MaxGebot]&9.
 auction-info-header: '&b%O&9 versteigert &f%q&a %i&9, Laufzeit &c%t&9.'
 auction-info-header-nobids: '&b%O&9 versteigert &f%q&a %i&9, Laufzeit &c%t&9.'
 auction-info-header-sealed:

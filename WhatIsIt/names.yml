@@ -5,11 +5,11 @@
 
 version: 1.3.3
 potion-parts:
-  absolute-zero: Water Bottle
+  absolute-zero: Wasserflasche
   prefix-bit-14: 'Splash '
   suffix-bit-6: ' (Ext)'
 special:
-  players-head: '%p''s Head'
+  players-head: '%p''s Kopf'
 entities:
   UNKNOWN: Unknown
   2;0: Experience Orb
@@ -78,544 +78,493 @@ entities:
   120;4: Butcher Villager
   200;0: Ender Crystal
 items:
-  UNKNOWN: Unknown
-  0;0: Air
-  1;0: Stone
-  2;0: Grass
-  3;0: Dirt
-  4;0: Cobblestone
-  5;0: Oak Plank
-  5;1: Pine Plank
-  5;2: Birch Plank
-  5;3: Jungle Plank
-  6;0: Oak Sapling
-  6;1: Pine Sapling
-  6;2: Birch Sapling
-  6;3: Jungle Sapling
-  7;0: Bedrock
-  8;0: Water
-  9;0: Stationary Water
+  UNKNOWN: Unbekannt
+  0;0: Luft
+  1;0: Stein
+  2;0: Gras
+  3;0: Erde
+  4;0: Pflasterstein
+  5;0: Eichenholzbretter
+  5;1: Fichtenholzbretter
+  5;2: Birkenholzbretter
+  5;3: Tropenholzbretter
+  6;0: Eichensetzling
+  6;1: Fichtensetzling
+  6;2: Birkensetzling
+  6;3: Tropenbaumsetzling
+  7;0: Grundstein
+  8;0: Wasser
+  9;0: Stilles Wasser
   10;0: Lava
-  11;0: Stationary Lava
+  11;0: Stille Lava
   12;0: Sand
-  13;0: Gravel
-  14;0: Gold Ore
-  15;0: Iron Ore
-  16;0: Coal Ore
-  17;0: Oak Log
-  17;1: Pine Log
-  17;2: Birch Log
-  17;3: Jungle Log
-  18;0: Oak Leaves
-  18;1: Pine Leaves
-  18;2: Birch Leaves
-  18;3: Jungle Leaves
-  19;0: Sponge
-  20;0: Glass
-  21;0: Lapis Lazuli Ore
+  13;0: Kies
+  14;0: Golderz
+  15;0: Eisenerz
+  16;0: Kohleerz
+  17;0: Eichenholz
+  17;1: Fichtenholz
+  17;2: Birkenholz
+  17;3: Tropenbaumholz
+  18;0: Eichenblätter
+  18;1: Fichtenblätter
+  18;2: Birkenblätter
+  18;3: Tropenbaumblätter
+  19;0: Schwamm
+  20;0: Glas
+  21;0: Lapis Lazuli Erz
   22;0: Lapis Lazuli Block
   23;0: Dispenser
-  24;0: Sandstone
-  24;1: Decorative Sandstone
-  24;2: Smooth Sandstone
-  25;0: Note Lock
-  26;0: Bed
-  27;0: Powered Rail
-  28;0: Detector Rail
-  29;0: Sticky Piston
-  30;0: Cobweb
-  31;0: Dead Shrub
-  31;1: Tall Grass
-  31;2: Fern
-  32;0: Dead Bush
-  33;0: Piston
-  34;0: Piston Extension
-  35;0: White Wool
-  35;1: Orange Wool
-  35;2: Magenta Wool
+  24;0: Sandstein
+  24;1: Ziselierter Sandstein
+  24;2: Glatter Sandstein
+  25;0: Notenblock
+  26;0: Bett
+  27;0: Powerschiene
+  28;0: Sensorschiene
+  29;0: Klebriger Kolben
+  30;0: Netz
+  31;0: Hohes Gras (Toter Busch)
+  31;1: Hohes Gras
+  31;2: Farn
+  32;0: Toter Busch
+  33;0: Kolben
+  34;0: Kolbenkopf
+  35;0: Wolle
+  35;1: Orangene Wolle
+  35;2: Magentafarbene Wolle
   35;3: Light Blue Wool
-  35;4: Yellow Wool
-  35;5: Lime Wool
-  35;6: Pink Wool
-  35;7: Gray Wool
-  35;8: Light Gray Wool
-  35;9: Cyan Wool
-  35;10: Purple Wool
-  35;11: Blue Wool
-  35;12: Brown Wool
-  35;13: Dark Green Wool
-  35;14: Red Wool
-  35;15: Black Wool
-  36;0: Block moved by Piston
-  37;0: Dandelion
+  35;4: Gelbe Wolle
+  35;5: Limonenfarbene Wolle
+  35;6: Pinke Wolle
+  35;7: Graue Wolle
+  35;8: Hellgraue Wolle
+  35;9: Cyanfarbene Wolle
+  35;10: Lilane Wolle
+  35;11: Blaue Wolle
+  35;12: Braune Wolle
+  35;13: Grüne Wolle
+  35;14: Rote Wolle
+  35;15: Schwarze Wolle
+  36;0: Bewegter Kolben
+  37;0: Löwenzahn
   38;0: Rose
-  39;0: Brown Mushroom
-  40;0: Red Mushroom
-  41;0: Block of Gold
-  42;0: Block of Iron
-  43;0: Stone Double Slab
-  43;1: Sandstone Double Slab
-  43;2: Wooden Double Slab
-  43;3: Cobblestone Double Slab
-  43;4: Brick Double Slab
-  43;5: Stone Brick Double Slab
-  44;0: Stone Slab
-  44;1: Sandstone Slab
-  44;2: Wooden Stone Slab
-  44;3: Cobblestone Slab
-  44;4: Brick Slab
-  44;5: Stone Brick Slab
-  45;0: Bricks
+  39;0: Brauner Pilz
+  40;0: Roter Pilz
+  41;0: Goldblock
+  42;0: Eisenblock
+  43;0: Doppelte Steinstufe
+  43;1: Doppelte Sandsteinstufe
+  43;2: Doppelte Holzstufe
+  43;3: Doppelte Pflastersteinstufe
+  43;4: Doppelte Ziegelstufe
+  43;5: Doppelte Steinziegelstufe
+  43;6: Doppelte Netherziegelstufe
+  44;0: Steinstufe
+  44;1: Sandsteinstufe
+  44;2: Holzstufe
+  44;3: Pflastersteinstufe
+  44;4: Ziegelstufe
+  44;5: Steinziegelstufe
+  44;6: Netherziegelstufe
+  45;0: Ziegel
   46;0: TNT
-  47;0: Bookshelf
-  48;0: Moss Stone
+  47;0: Bücherregal
+  48;0: Moosstein
   49;0: Obsidian
-  50;0: Torch
-  51;0: Fire
-  52;0: Monster Spawner
-  52;50: Creeper Spawner
-  52;51: Skeleton Spawner
-  52;52: Spider Spawner
-  52;53: Giant Spawner
-  52;54: Zombie Spawner
-  52;55: Slime Spawner
-  52;56: Ghast Spawner
-  52;57: Zombie Pigman Spawner
-  52;58: Enderman Spawner
-  52;59: Cave Spider Spawner
-  52;60: Silverfish Spawner
-  52;61: Blaze Spawner
-  52;62: Magma Cube Spawner
-  52;63: Ender Dragon Spawner
-  52;90: Pig Spawner
-  52;91: Sheep Spawner
-  52;92: Cow Spawner
-  52;93: Chicken Spawner
-  52;94: Squid Spawner
-  52;95: Wolf Spawner
-  52;96: Mooshroom Spawner
-  52;97: Snow Golem Spawner
-  52;98: Ocelot Spawner
-  52;99: Iron Golem Spawner
-  52;120: Villager Spawner
-  53;0: Oak Plank Stairs
-  54;0: Chest
-  55;0: Redstone Wire
-  56;0: Diamond Ore
-  57;0: Block of Diamond
-  58;0: Crafting Table
-  59;0: Wheat
+  50;0: Fackel
+  51;0: Feuer
+  52;0: Monsterspawner
+  53;0: Eichenholztreppe
+  54;0: Truhe
+  55;0: Redstonekabel
+  56;0: Diamanterz
+  57;0: Diamantblock
+  58;0: Werkbank
+  59;0: Weizenpflanze
   60;0: Farmland
-  61;0: Furnace
-  62;0: Burning Furnace
-  63;0: Sign Post
-  64;0: Wooden Door
-  65;0: Ladder
-  66;0: Rails
-  67;0: Cobblestone Stairs
-  68;0: Wall Sign
-  69;0: Lever
-  70;0: Stone Pressure Plate
-  71;0: Iron Door
-  72;0: Wooden Pressure Plate
-  73;0: Redstone Ore
-  74;0: Glowing Redstone Ore
-  75;0: Redstone Torch (off)
-  76;0: Redstone Torch (on)
-  77;0: Button
-  78;0: Snow
-  79;0: Ice
-  80;0: Snow Block
-  81;0: Cactus
-  82;0: Clay Block
-  83;0: Sugar Cane
-  84;0: Jukebox
-  85;0: Fence
-  86;0: Pumpkin
-  87;0: Netherrack
-  88;0: Soul Sand
-  89;0: Glowstone Block
+  61;0: Ofen
+  62;0: Heißer Ofen
+  63;0: Gesetztes Schild
+  64;0: Gesetzte Holztür
+  65;0: Leiter
+  66;0: Schiene
+  67;0: Pflastersteintreppe
+  68;0: Aufgehängtes Schild
+  69;0: Hebel
+  70;0: Steindruckplatte
+  71;0: Gesetzte Eisentür
+  72;0: Holzdruckplatte
+  73;0: Redstoneerz
+  74;0: Leuchtendes Redstoneerz
+  75;0: Dunkle Redstonefackel
+  76;0: Redstonefackel
+  77;0: Steinknopf
+  78;0: Schnee
+  79;0: Eis
+  80;0: Schneeblock
+  81;0: Kaktus
+  82;0: Lehmblock
+  83;0: Wachsendes Zuckerrohr
+  84;0: Musikbox
+  85;0: Zaun
+  86;0: Kürbis
+  87;0: Netherkies
+  88;0: Seelensand
+  89;0: Glühstein
   90;0: Portal
-  91;0: Jack-O-Lantern
-  92;0: Cake Block
-  93;0: Redstone Repeater (off)
-  94;0: Redstone Repeater (on)
-  95;0: Locked Chest
-  96;0: Trapdoor
-  97;0: Stone Hidden Silverfish
-  97;1: Cobblestone Hidden Silverfish
-  97;2: Stone Brick Hidden Silverfish
-  98;0: Stone Bricks
-  98;1: Mossy Stone Bricks
-  98;2: Cracked Stone Bricks
-  98;3: Circle Stone Bricks
-  99;0: Huge Brown Mushroom
-  100;0: Huge Red Mushroom
-  101;0: Iron Bars
-  102;0: Glass Pane
-  103;0: Melon
-  104;0: Pumpkin Stem
-  105;0: Melon Stem
-  106;0: Vines
-  107;0: Fence Gate
-  108;0: Brick Stairs
-  109;0: Stone Brick Stairs
-  110;0: Mycelium
-  111;0: Lily Pad
-  112;0: Nether Brick
-  113;0: Nether Brick Fence
-  114;0: Nether Brick Stairs
-  115;0: Nether Wart
-  116;0: Enchantment Table
-  117;0: Brewing Stand
-  118;0: Cauldron
-  119;0: End Portal
-  120;0: End Portal Frame
-  121;0: End Stone
-  122;0: Dragon Egg
-  123;0: Redstone Lamp (off)
-  124;0: Redstone Lamp (on)
-  125;0: Oak Plank Double Slab
-  125;1: Pine Plank Double Slab
-  125;2: Birch Plank Double Slab
-  125;3: Jungle Plank Double Slab
-  126;0: Oak Plank Slab
-  126;1: Pine Plank Slab
-  126;2: Birch Plank Slab
-  126;3: Jungle Plank Slab
-  127;0: Cocoa Plant
-  128;0: Sandstone Stairs
-  129;0: Emerald Ore
-  130;0: Ender Chest
-  131;0: Tripwire Hook
-  132;0: Tripwire
-  133;0: Block of Emerald
-  134;0: Pine Plank Stairs
-  135;0: Birch Plank Stairs
-  136;0: Jungle Plank Stairs
-  137;0: Command Block
-  138;0: Beacon
-  139;0: Cobblestone Wall
-  139;1: Mossy Cobblestone Wall
-  140;0: Flower Pot
-  140;1: Rose Flower Pot
-  140;2: Dandelion Flower Pot
-  140;3: Oak Sapling Flower Pot
-  140;4: Spruce Sapling Flower Pot
-  140;5: Birch Sapling Flower Pot
-  140;6: Jungle Sapling Flower Pot
-  140;7: Red Mushroom Flower Pot
-  140;8: Brown Mushroom Flower Pot
-  140;9: Cactus Flower Pot
-  140;10: Dead Bush Flower Pot
-  140;11: Fern Flower Pot
-  141;0: Carrots
-  142;0: Potatoes
-  143;0: Wooden Button
-  144;0: Head
-  145;0: Anvil
-  145;1: Anvil
-  145;2: Anvil
-  145;3: Anvil
-  145;4: Slightly Damaged Anvil
-  145;5: Slightly Damaged Anvil
-  145;6: Slightly Damaged Anvil
-  145;7: Slightly Damaged Anvil
-  145;8: Very Damaged Anvil
-  145;9: Very Damaged Anvil
-  145;10: Very Damaged Anvil
-  145;11: Very Damaged Anvil
-  256;0: Iron Shovel
-  257;0: Iron Pickaxe
-  258;0: Iron Axe
-  259;0: Flint and Steel
-  260;0: Red Apple
-  261;0: Bow
-  262;0: Arrow
-  263;0: Coal
-  263;1: Charcoal
-  264;0: Diamond
-  265;0: Iron Ingot
-  266;0: Gold Ingot
-  267;0: Iron Sword
-  268;0: Wooden Sword
-  269;0: Wooden Shovel
-  270;0: Wooden Pickaxe
-  271;0: Wooden Axe
-  272;0: Stone Sword
-  273;0: Stone Shovel
-  274;0: Stone Pickaxe
-  275;0: Stone Axe
-  276;0: Diamond Sword
-  277;0: Diamond Shovel
-  278;0: Diamond Pickaxe
-  279;0: Diamond Axe
-  280;0: Stick
-  281;0: Bowl
-  282;0: Mushroom Soup
-  283;0: Gold Sword
-  284;0: Gold Shovel
-  285;0: Gold Pickaxe
-  286;0: Gold Axe
-  287;0: String
-  288;0: Feather
-  289;0: Gunpowder
-  290;0: Wooden Hoe
-  291;0: Stone Hoe
-  292;0: Iron Hoe
-  293;0: Diamond Hoe
-  294;0: Gold Hoe
-  295;0: Seeds
-  296;0: Wheat
-  297;0: Bread
-  298;0: Leather Cap
-  299;0: Leather Tunic
-  300;0: Leather Pants
-  301;0: Leather Boots
-  302;0: Chain Helmet
-  303;0: Chain Chestplate
-  304;0: Chain Leggings
-  305;0: Chain Boots
-  306;0: Iron Helmet
-  307;0: Iron Chestplate
-  308;0: Iron Leggings
-  309;0: Iron Boots
-  310;0: Diamond Helmet
-  311;0: Diamond Chestplate
-  312;0: Diamond Leggings
-  313;0: Diamond Boots
-  314;0: Gold Helmet
-  315;0: Gold Chestplate
-  316;0: Gold Leggings
-  317;0: Gold Boots
-  318;0: Flint
-  319;0: Raw Porkchop
-  320;0: Cooked Porkchop
-  321;0: Painting
-  322;0: Golden Apple
-  322;1: Super Golden Apple
-  323;0: Sign
-  324;0: Wooden Door
-  325;0: Empty Bucket
-  326;0: Water Bucket
-  327;0: Lava Bucket
-  328;0: Minecart
-  329;0: Saddle
-  330;0: Iron Door
-  331;0: Redstone Dust
-  332;0: Snowball
-  333;0: Boat
-  334;0: Leather
-  335;0: Milk Bucket
-  336;0: Clay Brick
-  337;0: Clay
-  338;0: Sugar Cane
-  339;0: Paper
-  340;0: Book
-  341;0: Slimeball
-  342;0: Minecart with Chest
-  343;0: Minecart with Furnace
-  344;0: Chicken Egg
-  345;0: Compass
-  346;0: Fishing Rod
-  347;0: Clock
-  348;0: Glowstone Dust
-  349;0: Raw Fish
-  350;0: Cooked Fish
-  351;0: Ink Sac
-  351;1: Rose Red
-  351;2: Cactus Green
-  351;3: Cocoa Beans
+  91;0: Kürbislaterne
+  92;0: Platzierter Kuchen
+  93;0: Dunkler Redstonewiederholer
+  94;0: Redstonewiederholer
+  95;0: Verschlossene Truhe
+  96;0: Falltür
+  97;0: Silberfischstein
+  97;1: Silberfischpflasterstein
+  97;2: Silberfischsteinziegel
+  98;0: Steinziegel
+  98;1: Bemooste Steinziegel
+  98;2: Beschädigte Steinziegel
+  98;3: Zisilierte Steinziegel
+  99;0: Wachsender Brauner Pilz
+  100;0: Wachsender Roter Pilz
+  101;0: Eisengitter
+  102;0: Glaspanel
+  103;0: Melone
+  104;0: Kürbisranke
+  105;0: Melonenranke
+  106;0: Ranke
+  107;0: Zauntor
+  108;0: Ziegeltreppe
+  109;0: Steinziegeltreppe
+  110;0: Mycel
+  111;0: Seerose
+  112;0: Netherziegel
+  113;0: Netherziegelzaun
+  114;0: Netherziegeltreppe
+  115;0: Netherwarze
+  116;0: Verzauberungstisch
+  117;0: Platzierter Braustand
+  118;0: Platzierter Kessel
+  119;0: Endportal
+  120;0: Endportalrahmen
+  121;0: Endstein
+  122;0: Drachenei
+  123;0: Redstonelampe
+  124;0: Leuchtende Redstonelampe
+  125;0: Doppelte Eichenholzstufe
+  125;1: Doppelte Fichtenholzstufe
+  125;2: Doppelte Birkenholzstufe
+  125;3: Doppelte Tropenbaumholzstufe
+  126;0: Eichenholzstufe
+  126;1: Fichtenholzstufe
+  126;2: Birkenholzstufe
+  126;3: Tropenbaumholzstufe
+  127;0: Kakaopflanze
+  128;0: Sandsteintreppe
+  129;0: Smaragderz
+  130;0: Endertruhe
+  131;0: Stolperdrahthaken
+  132;0: Stolperdraht
+  133;0: Smaragdblock
+  134;0: Fichtenholztreppe
+  135;0: Birkenholztreppe
+  136;0: Tropenbaumholztreppe
+  137;0: Kommandoblock
+  138;0: Leuchtfeuer
+  139;0: Pflastersteinwand
+  139;1: Bemooste Pflastersteinwand
+  140;0: Platzierter Blumentopf
+  141;0: Karottenpflanze
+  142;0: Kartoffelpflanze
+  143;0: Holzknopf
+  144;0: Platzierter Skelettkopf
+  144;1: Platzierter Witherkopf
+  144;2: Platzierter Zombiekopf
+  144;3: Platzierter Spielerkopf
+  144;4: Platzierter Creeperkopf
+  145;0: Amboss
+  256;0: Eisenschaufel
+  257;0: Eisenpicke
+  258;0: Eisenaxt
+  259;0: Feuerzeug
+  260;0: Apfel
+  261;0: Bogen
+  262;0: Pfeil
+  263;0: Kohle
+  263;1: Holzkohle
+  264;0: Diamant
+  265;0: Eisenbarren
+  266;0: Goldbarren
+  267;0: Eisenschwert
+  268;0: Holzschwert
+  269;0: Holzschaufel
+  270;0: Holzpicke
+  271;0: Holzaxt
+  272;0: Steinschwert
+  273;0: Steinschaufel
+  274;0: Steinpicke
+  275;0: Steinaxt
+  276;0: Diamantschwert
+  277;0: Diamantschaufel
+  278;0: Diamantpicke
+  279;0: Diamantaxt
+  280;0: Stock
+  281;0: Schale
+  282;0: Pilzsuppe
+  283;0: Goldschwert
+  284;0: Goldschaufel
+  285;0: Goldpicke
+  286;0: Goldaxt
+  287;0: Faden
+  288;0: Feder
+  289;0: Schwarzpulver
+  290;0: Holzharke
+  291;0: Steinharke
+  292;0: Eisenharke
+  293;0: Diamantharke
+  294;0: Goldharke
+  295;0: Weizensamen
+  296;0: Weizen
+  297;0: Brot
+  298;0: Lederhelm
+  299;0: Lederrüstung
+  300;0: Lederhose
+  301;0: Lederstiefel
+  302;0: Kettenhelm
+  303;0: Kettenrüstung
+  304;0: Kettenhose
+  305;0: Kettenstiefel
+  306;0: Eisenhelm
+  307;0: Eisenrüstung
+  308;0: Eisenhose
+  309;0: Eisenstiefel
+  310;0: Diamanthelm
+  311;0: Diamantrüstung
+  312;0: Diamanthose
+  313;0: Diamantstiefel
+  314;0: Goldhelm
+  315;0: Goldrüstung
+  316;0: Goldhose
+  317;0: Goldstiefel
+  318;0: Feuerstein
+  319;0: Rohes Schweinefleisch
+  320;0: Gebratenes Schweinefleisch
+  321;0: Bild
+  322;0: Goldener Apfel
+  322;1: Verzauberter Goldener Apfel
+  323;0: Schild
+  324;0: Holztür
+  325;0: Eimer
+  326;0: Wassereimer
+  327;0: Lavaeimer
+  328;0: Lore
+  329;0: Sattel
+  330;0: Eisentür
+  331;0: Redstonestaub
+  332;0: Schneeball
+  333;0: Boot
+  334;0: Leder
+  335;0: Milcheimer
+  336;0: Lehmziegel
+  337;0: Lehm
+  338;0: Zuckerrohr
+  339;0: Papier
+  340;0: Buch
+  341;0: Schleimball
+  342;0: Lagerlore
+  343;0: Powerlore
+  344;0: Ei
+  345;0: Kompass
+  346;0: Angelrute
+  347;0: Uhr
+  348;0: Glühsteinstaub
+  349;0: Roher Fisch
+  350;0: Gebratener Fisch
+  351;0: Tintensack
+  351;1: Rosenrote Farbe
+  351;2: Kaktusgrüne Farbe
+  351;3: Kakaobohne
   351;4: Lapis Lazuli
-  351;5: Purple Dye
-  351;6: Cyan Dye
-  351;7: Light Gray Dye
-  351;8: Gray Dye
-  351;9: Pink Dye
-  351;10: Lime Dye
-  351;11: Dandelion Yellow
-  351;12: Light Blue Dye
-  351;13: Magenta Dye
-  351;14: Orange Dye
-  351;15: Bone Meal
-  352;0: Bone
-  353;0: Sugar
-  354;0: Cake
-  355;0: Bed
-  356;0: Redstone Repeater
-  357;0: Cookie
-  358;0: 'Map #%d'
-  359;0: Shears
-  360;0: Melon Slice
-  361;0: Pumpkin Seeds
-  362;0: Melon Seeds
-  363;0: Raw Beef
+  351;5: Lila Farbe
+  351;6: Cyan Farbe
+  351;7: Hellgraue Farbe
+  351;8: Graue Farbe
+  351;9: Pinke Farbe
+  351;10: Limonenfarbene Farbe
+  351;11: Dandelion Yellow Dye
+  351;12: Hellblaue Farbe
+  351;13: Magentafarbene Farbe
+  351;14: Orangene Farbe
+  351;15: Knochenmehl
+  352;0: Knochen
+  353;0: Zucker
+  354;0: Kuchen
+  355;0: Bett
+  356;0: Redstonewiederholer
+  357;0: Keks
+  358;0: Karte
+  359;0: Schere
+  360;0: Melonenstück
+  361;0: Kürbissamen
+  362;0: Melonensamen
+  363;0: Rohes Rindleisch
   364;0: Steak
-  365;0: Raw Chicken
-  366;0: Fried Chicken
-  367;0: Rotten Flesh
-  368;0: Ender pearl
-  369;0: Blaze Rod
-  370;0: Ghast Tear
-  371;0: Gold Nugget
-  372;0: Nether Wart
-  373;0: Mundane Potion
-  373;1: Potion of Regeneration
-  373;2: Potion of Swiftness
-  373;3: Potion of Fire Resistance
-  373;4: Potion of Poison
-  373;5: Potion of Healing
-  373;6: Potion of Night Vision
-  373;7: Clear Potion
-  373;8: Potion of Weakness
-  373;9: Potion of Strength
-  373;10: Potion of Slowness
-  373;11: Diffuse Potion
-  373;12: Potion of Harming
-  373;13: Artless Potion
-  373;14: Potion of Invisibility
-  373;15: Thin Potion
-  373;16: Awkward Potion
-  373;17: Potion of Regeneration
-  373;18: Potion of Swiftness
-  373;19: Potion of Fire Resistance
-  373;20: Potion of Poison
-  373;21: Potion of Healing
-  373;22: Bungling Potion
-  373;23: Bungling Potion
-  373;24: Potion of Weakness
-  373;25: Potion of Strength
-  373;26: Potion of Slowness
-  373;27: Smooth Potion
-  373;28: Potion of Harming
-  373;29: Suave Potion
-  373;30: Debonair Potion
-  373;31: Debonair Potion
-  373;32: Thick Potion
-  373;33: Potion of Regeneration II
-  373;34: Potion of Swiftness II
-  373;35: Potion of Fire Resistance
-  373;36: Potion of Poison II
-  373;37: Potion of Healing II
-  373;38: Charming Potion
-  373;39: Charming Potion
-  373;40: Potion of Weakness
-  373;41: Potion of Strength II
-  373;42: Potion of Slowness
-  373;43: Refined Potion
-  373;44: Potion of Harming II
-  373;45: Cordial Potion
-  373;46: Sparkling Potion
-  373;47: Sparkling Potion
-  373;48: Potent Potion
-  373;49: Potion of Regeneration II
-  373;50: Potion of Swiftness II
-  373;51: Potion of Fire Resistance
-  373;52: Potion of Poison II
-  373;53: Potion of Healing II
-  373;54: Potion of Night Vision
-  373;55: Rank Potion
-  373;56: Potion of Weakness
-  373;57: Potion of Strength II
-  373;58: Potion of Slowness
-  373;59: Acrid Potion
-  373;60: Potion of Harming II
-  373;61: Gross Potion
-  373;62: Potion of Invisibility
-  373;63: Stinky Potion
-  374;0: Glass Bottle
-  375;0: Spider Eye
-  376;0: Fermented Spider Eye
-  377;0: Blaze Powder
-  378;0: Magma Cream
-  379;0: Brewing Stand
-  380;0: Cauldron
-  381;0: Eye of Ender
-  382;0: Glistering Melon
-  383;0: Spawn Egg
-  383;50: Creeper Spawn Egg
-  383;51: Skeleton Spawn Egg
-  383;52: Spider Spawn Egg
-  383;54: Zombie Spawn Egg
-  383;55: Slime Spawn Egg
-  383;56: Ghast Spawn Egg
-  383;57: Zombie Pigman Spawn Egg
-  383;58: Enderman Spawn Egg
-  383;59: Cave Spider Spawn Egg
-  383;60: Silverfish Spawn Egg
-  383;61: Blaze Spawn Egg
-  383;62: Magma Cube Spawn Egg
-  383;63: Ender Dragon Spawn Egg
-  383;64: Wither Spawn Egg
-  383;65: Bat Spawn Egg
-  383;66: Witch Spawn Egg
-  383;90: Pig Spawn Egg
-  383;91: Sheep Spawn Egg
-  383;92: Cow Spawn Egg
-  383;93: Chicken Spawn Egg
-  383;94: Squid Spawn Egg
-  383;95: Wolf Spawn Egg
-  383;96: Mooshroom Spawn Egg
-  383;98: Ocelot Spawn Egg
-  383;120: Villager Spawn Egg
-  384;0: Bottle o' Enchanting
-  385;0: Fire Charge
-  386;0: Book and Quill
-  387;0: Written Book
-  388;0: Emerald
-  389;0: Item Frame
-  390;0: Flower Pot
-  391;0: Carrot
-  392;0: Potato
-  393;0: Baked Potato
-  394;0: Poisonous Potato
-  395;0: Empty Map
-  396;0: Golden Carrot
-  397;0: Skeleton Head
-  397;1: Wither Skeleton Head
-  397;2: Zombie Head
-  397;3: Human Head
-  397;4: Creeper Head
-  398;0: Carrot on a Stick
-  399;0: Nether Star
-  400;0: Pumpkin Pie
-  401;0: Firework Rocket
-  402;0: Firework Star
-  403;0: Enchanted Book
-  2256;0: 13 Disc (yellow)
-  2257;0: Cat Disc (green)
-  2258;0: Blocks Disc (orange)
-  2259;0: Chirp Disc (red)
-  2260;0: Far Disc (lime)
-  2261;0: Mall Disc (purple)
-  2262;0: Mellohi Disc (pink)
-  2263;0: Stal Disc (black)
-  2264;0: Strad Disc (white)
-  2265;0: Ward Disc (dark green)
-  2266;0: 11 Disc (broken)
+  365;0: Rohes Hühnchen
+  366;0: Gebratenes Hühnchen
+  367;0: Madiges Fleisch
+  368;0: Enderperle
+  369;0: Blazestab
+  370;0: Ghastträne
+  371;0: Goldnugget
+  372;0: Netherwarzensamen
+  373;0: Wasserflasche
+  373;16: Unangenehmer Trank
+  373;32: Dickflüssiger Trank
+  373;64: Schlichter Trank
+  373;8193: Trank der Regeneration (0:45)
+  373;8194: Trank der Beschleunigung (3:00)
+  373;8195: Trank der Feuerresistenz (3:00)
+  373;8196: Gifttrank (0:45)
+  373;8197: Heiltrank
+  373;8198: Nachtsichttrank (3:00)
+  373;8200: Trank der Schwäche (1:30)
+  373;8201: Trank der Stärke (3:00)
+  373;8202: Trank der Verlangsamung (1:30)
+  373;8204: Trank der Schädigung
+  373;8206: Trank der Unsichtbarkeit (3:00)
+  373;8225: Trank der Regeneration II (0:22)
+  373;8226: Trank der Beschleunigung II (1:30)
+  373;8228: Gifttrank II (0:22)
+  373;8229: Heiltrank II
+  373;8233: Trank der Stärke II (1:30)
+  373;8236: Trank der Schädigung II
+  373;8257: Trank der Regeneration (2:00)
+  373;8258: Trank der Beschleunigung (8:00)
+  373;8259: Trank der Feuerresistenz (8:00)
+  373;8260: Gifttrank (2:00)
+  373;8262: Nachtsichttrank (8:00)
+  373;8264: Trank der Schwäche (4:00)
+  373;8265: Trank der Stärke (8:00)
+  373;8266: Trank der Verlangsamung (4:00)
+  373;8270: Trank der Unsichtbarkeit (8:00)
+  373;16385: Wurftrank der Regeneration (0:33)
+  373;16386: Wurftrank der Beschleunigung (2:15)
+  373;16387: Wurftrank der Feuerresistenz (2:15)
+  373;16388: Gift-Wurftrank (0:33)
+  373;16389: Heil-Wurftrank
+  373;16390: Nachtsicht-Wurftrank (2:15)
+  373;16392: Wurftrank der Schwäche (1:07)
+  373;16393: Wurftrank der Stärke (2:15)
+  373;16394: Wurftrank der Verlangsamung (1:07)
+  373;16396: Wurftrank der Schädigung
+  373;16398: Wurftrank der Unsichtbarkeit (2:15)
+  373;16417: Wurfttrank der Regeneration II (0:16)
+  373;16418: Wurftrank der Beschleunigung II (1:07)
+  373;16420: Gift-Wurftrank II (0:16)
+  373;16421: Weil-Wurftrank II
+  373;16425: Wurftrank der Stärke II (1:07)
+  373;16428: Wurftrank der Schädigung II
+  373;16449: Wurftrank der Regeneration (1:30)
+  373;16450: Wurftrank der Beschleunigung (6:00)
+  373;16451: Wurftrank der Feuerresistenz (6:00)
+  373;16452: Gift-Wurftrank (1:30)
+  373;16454: Nachtsicht-Wurftrank (6:00)
+  373;16456: Wurftrank der Schwäche (3:00)
+  373;16457: Wurftrank der Stärke (6:00)
+  373;16458: Wurftrank der Verlangsamung (3:00)
+  373;16462: Wurftrank der Unsichtbarkeit (6:00)
+  374;0: Glasflasche
+  375;0: Spinnenauge
+  376;0: Fermentiertes Spinnenauge
+  377;0: Blazestaub
+  378;0: Magmacreme
+  379;0: Braustand
+  380;0: Kessel
+  381;0: Enderauge
+  382;0: Funkelndes Melonenstück
+  383;50: Spawn Ei (Creeper)
+  383;51: Spawn Ei (Skeleton)
+  383;52: Spawn Ei (Spider)
+  383;54: Spawn Ei (Zombie)
+  383;55: Spawn Ei (Slime)
+  383;56: Spawn Ei (Ghast)
+  383;57: Spawn Ei (Zombie Pigmen)
+  383;58: Spawn Ei (Endermen)
+  383;59: Spawn Ei (Cave Spider)
+  383;60: Spawn Ei (Silverfish)
+  383;61: Spawn Ei (Blaze)
+  383;62: Spawn Ei (Magma Cube)
+  383;65: Spawn Ei (Bat)
+  383;66: Spawn Ei (Witch)
+  383;90: Spawn Ei (Pig)
+  383;91: Spawn Ei (Sheep)
+  383;92: Spawn Ei (Cow)
+  383;93: Spawn Ei (Chicken)
+  383;94: Spawn Ei (Squid)
+  383;95: Spawn Ei (Wolf)
+  383;96: Spawn Ei (Mooshroom)
+  383;98: Spawn Ei (Ocelot)
+  383;120: Spawnei (Villager)
+  384;0: Erfahrungsfläschchen
+  385;0: Feuerkugel
+  386;0: Buch und Feder
+  387;0: Geschriebenes Buch
+  388;0: Smaragd
+  389;0: Bilderrahmen
+  390;0: Blumentopf
+  391;0: Karotte
+  392;0: Kartoffel
+  393;0: Gebackene Kartoffel
+  394;0: Giftkartoffel
+  395;0: Leere Karte
+  396;0: Goldene Karotte
+  397;0: Skelettschädel
+  397;1: Witherschädel
+  397;2: Zombieschädel
+  397;3: Spielerschädel
+  397;4: Creeperkopf
+  398;0: Karotte an der Angel
+  399;0: Netherstern
+  400;0: Kürbiskuchen
+  401;0: Feuerwerksrakete
+  402;0: Feuerwerksstern
+  403;0: Zauberbuch
+  2256;0: Schallplatte (13)
+  2257;0: Schallplatte (Cat)
+  2258;0: Schallplatte (Blocks)
+  2259;0: Schallplatte (Chirp)
+  2260;0: Schallplatte (Far)
+  2261;0: Schallplatte (Mall)
+  2262;0: Schallplatte (Mellohi)
+  2263;0: Schallplatte (Stal)
+  2264;0: Schallplatte (Strad)
+  2265;0: Schallplatte (Ward)
+  2266;0: Schallplatte (11)
+  2267;0: Schallplatte (Wait)
 enchantments:
   UNKNOWN: Unknown
-  '0': Protection
-  '1': Fire Protection
-  '2': Feather Falling
-  '3': Blast Protection
-  '4': Projectile Protection
-  '5': Respiration
-  '6': Aqua Afinity
-  '7': Thorns
-  '16': Sharpness
-  '17': Smite
-  '18': Bane of Arthropods
-  '19': Knockback
-  '20': Fire Aspect
-  '21': Looting
-  '32': Efficiency
-  '33': Silk Touch
-  '34': Unbreaking
-  '35': Fortune
-  '48': Power
-  '49': Punch
-  '50': Flame
-  '51': Infinity
+  '0': Schutz
+  '1': Feuerschutz
+  '2': Federfall
+  '3': Explosionsschutz
+  '4': Schusssicher
+  '5': Atmung
+  '6': Wasseraffinität
+  '7': Dornen
+  '16': Schärfe
+  '17': Bann
+  '18': Nemesis der Gliederfüßer
+  '19': Rückstoß
+  '20': Verbrennung
+  '21': Plünderung
+  '32': Effizienz
+  '33': Behutsamkeit
+  '34': Haltbarkeit
+  '35': Glück
+  '48': Stärke
+  '49': Schlag
+  '50': Flamme
+  '51': Unendlichkeit
 enchantmentlevels:
   UNKNOWN: '%r'
